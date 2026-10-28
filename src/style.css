@@ -1,0 +1,37 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f5f6f8;
+  color: #1f2430;
+  margin: 0;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+#users {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+
+#users li {
+  background: #fff;
+  padding: 12px 16px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.1);
+}
+
+#users .email {
+  color: #5a6275;
+  font-size: 14px;
+}
+
+#error {
+  background: #fdecea;
+  color: #b3261e;
+  border: 1px solid #f5c2be;
+  padding: 12px 16px;
+}
